@@ -20,7 +20,7 @@ namespace partyInvites.Models
         public string Email { get; set; }
 
         [Display(Name = "Your Phone:")]
-        [RegularExpression("\\(?\\d{3}\\)?-? *\\d{3}-? *-?\\d{4}", ErrorMessage ="Invalid Phone Number ")]
+      //  [RegularExpression("\\(?\\d{3}\\)?-? *\\d{3}-? *-?\\d{4}", ErrorMessage ="Invalid Phone Number ")]
         [Required(ErrorMessage = "Your Phone Number   is Mandatory")]
         public string Phone { get; set; }
 
