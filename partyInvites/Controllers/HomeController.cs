@@ -43,7 +43,7 @@ namespace partyInvites.Controllers
         {
             //todo: email response to the organiser
             ViewBag.Message = "Your RSV Form.";
-            return View();
+            return View("RsvForm", guestResponse);
         }
 
 
