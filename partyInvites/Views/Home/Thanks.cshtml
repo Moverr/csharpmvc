@@ -13,13 +13,16 @@
         <div class="col-md-12">
             @if (Model.willAtted == true)
             {
+                @:
                 <div class="alert alert-success alert-dismissable">
-                    @:Its great that you are coming, thanks for honoring
+                    Its great that you are coming, thanks for honoring
                 </div>
             }
             else
-            {<div class="alert alert-success alert-dismissable">
-                    @:Sad about that, I hope you are ok
+            {
+                @:
+                <div class="alert alert-warning alert-dismissable">
+                    Sad about that, I hope you are ok
                 </div>
             }
 
