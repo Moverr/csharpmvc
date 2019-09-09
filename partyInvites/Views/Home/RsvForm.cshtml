@@ -22,18 +22,26 @@
                 <!-- Model Binding the ohter important step in this whole game -->
 
                 <div class="form-group">
-                    @Html.LabelFor(model => model.Name,new { value = "Your Name : " })
+                    @Html.LabelFor(model => model.Name)
                     <!-- Using items that end with FOr  instead of just   top if dealing with binding -->
                     @Html.TextBoxFor(model => model.Name, new { @class = "form-control", id = "exampleInputName", type = "text" })
                 </div>
 
 
                 <div class="form-group">
-                    @Html.LabelFor(model => model.Email, new { value = "Your Email : " })
+                    @Html.LabelFor(model => model.Email)
                     <!-- Using items that end with FOr  instead of just   top if dealing with binding -->
                     @Html.TextBoxFor(model => model.Email, new { @class = "form-control", id = "exampleInputEmail", type = "email" })
                 </div>
 
+
+
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Phone)
+                    <!-- Using items that end with FOr  instead of just   top if dealing with binding -->
+                    @Html.TextBoxFor(model => model.Phone, new { @class = "form-control", id = "exampleInputPhone", type = "number" })
+                </div>
 
 
 
