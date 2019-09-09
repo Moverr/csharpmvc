@@ -13,7 +13,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12">
-            <h2>@ViewBag.Title</h2>
+            <h2>@ViewBag.Message</h2>
 
             @using (Html.BeginForm("RsvForm", "Home", FormMethod.Post, new { role = "form", id = "mose", }))
 
@@ -50,6 +50,8 @@
                     <!-- Using items that end with FOr  instead of just   top if dealing with binding -->
                     @Html.DropDownListFor(model => model.willAtted, new[] {
                    new SelectListItem(){Text = "Yes, I'll be there ",Value=bool.TrueString},
+                     new SelectListItem(){Text = "No, I won't be there ",Value=bool.FalseString},
+
                }, new { @class = "form-control" })
 
 

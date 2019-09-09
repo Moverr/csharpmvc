@@ -41,7 +41,7 @@ namespace partyInvites.Controllers
         [HttpPost]
         public ActionResult RsvForm(GuestResponse guestResponse)
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Your RSV Form.";
             return View();
         }
 
