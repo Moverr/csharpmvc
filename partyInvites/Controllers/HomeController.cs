@@ -41,9 +41,10 @@ namespace partyInvites.Controllers
         [HttpPost]
         public ActionResult RsvForm(GuestResponse guestResponse)
         {
+           
             //todo: email response to the organiser
             ViewBag.Message = "Your RSV Form.";
-            return View("RsvForm", guestResponse);
+            return View("Thanks", guestResponse);
         }
 
 
