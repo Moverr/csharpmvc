@@ -1,18 +1,19 @@
 ﻿@model partyInvites.Models.GuestResponse
 
 @{
-    ViewBag.Title = "Interesting form ";
+    ViewBag.Title = " Profile Form ";
+    ViewBag.letMeKnow = "Did You say Let Me Know ";
 }
 
 
 
 
-<h2>@ViewBag.Title</h2>
+
 
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12">
-
+            <h2>@ViewBag.Title</h2>
 
             @using (Html.BeginForm("RsvForm", "Home", FormMethod.Post, new { role = "form", id = "mose", }))
 
