@@ -44,6 +44,20 @@
                 </div>
 
 
+                <div class="form-group">
+                    @Html.LabelFor(model => model.willAtted)
+                    <!-- Using items that end with FOr  instead of just   top if dealing with binding -->
+                    @Html.DropDownListFor(model => model.willAtted, new[] {
+                   new SelectListItem(){Text = "Yes, I'll be there ",Value=bool.TrueString},
+               })
+
+
+                    @Html.TextBoxFor(model => model.Phone, new { @class = "form-control", id = "exampleInputPhone", type = "number" })
+                </div>
+
+
+
+
 
                 <div class="form-group">
 
