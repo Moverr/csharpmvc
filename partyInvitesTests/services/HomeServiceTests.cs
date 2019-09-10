@@ -1,12 +1,32 @@
-﻿using System;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using partyInvites.services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace partyInvitesTests.services
+namespace partyInvites.services.Tests
 {
-    class HomeServiceTests
+    [TestClass()]
+    public class HomeServiceTests
     {
+        [TestMethod()]
+        public void HomeServiceTest()
+        {
+            Assert.Fail();
+        }
+
+        [TestMethod()]
+        public void getInstanceTest()
+        {
+            Assert.Fail();
+        }
+
+        [TestMethod()]
+        public void handleFormTest()
+        {
+            Assert.Fail();
+        }
     }
 }

@@ -48,8 +48,14 @@ namespace partyInvites.Controllers
         [HttpPost]
         public ActionResult RsvForm(GuestResponse guestResponse)
         {
-           
-            if(ModelState.IsValid)
+
+            if (!homeService.handleForm(guestResponse))
+                return View();
+            return View("Thanks", guestResponse);
+
+
+
+            if (ModelState.IsValid)
             {
                 homeService.handleForm(guestResponse);
 
