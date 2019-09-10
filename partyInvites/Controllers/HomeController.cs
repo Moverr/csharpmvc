@@ -7,7 +7,7 @@ namespace partyInvites.Controllers
 {
     public class HomeController : Controller
     {
-        private HomeService homeService;
+          HomeService homeService;
         /*public ActionResult Index()
         {
             return View();
@@ -51,6 +51,8 @@ namespace partyInvites.Controllers
            
             if(ModelState.IsValid)
             {
+                homeService.handleForm(guestResponse);
+
                 ViewBag.Message = "Your RSV Form.";
                 return View("Thanks", guestResponse);
             }
