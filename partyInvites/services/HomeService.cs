@@ -31,13 +31,17 @@ namespace partyInvites.services
         public bool handleForm(GuestResponse guestResponse)
         {
             // _modelState.AddModelError("General", "Testing General Error");
-            if (_modelState.IsValid == false)
+            if (_modelState.IsValid == true)
+            {
+                return true;
+            }
+            else
             {
                 return false;
             }
 
             //todo: you can now handle the saving and bussiness logic and move on based on that  
-            return true;
+           
         }
            
 
