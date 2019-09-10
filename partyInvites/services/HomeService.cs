@@ -28,14 +28,15 @@ namespace partyInvites.services
             return homeService;
         }
 
-        public GuestResponse handleForm(GuestResponse guestResponse)
+        public bool handleForm(GuestResponse guestResponse)
         {
+            _modelState.AddModelError("General", "Testing General Error");
             if (_modelState.IsValid)
             {
-                return guestResponse;
+                return true;
             }
 
-            throw new Exception("Invalid Selection");
+            return false;
         }
            
 
