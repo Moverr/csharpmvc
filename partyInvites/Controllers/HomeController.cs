@@ -16,7 +16,7 @@ namespace partyInvites.Controllers
 
             public HomeController()
         {
-            homeService = HomeService.getInstance();
+            homeService = HomeService.getInstance(this.ModelState);
         }
         public ViewResult index()
         {
