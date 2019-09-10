@@ -1,16 +1,23 @@
 ﻿using partyInvites.Models;
 using System;
 using System.Web.Mvc;
+using partyInvites.services;
 
 namespace partyInvites.Controllers
 {
     public class HomeController : Controller
     {
+        private HomeService homeService;
         /*public ActionResult Index()
         {
             return View();
         }
         */
+
+            public HomeController()
+        {
+            homeService = HomeService.getInstance();
+        }
         public ViewResult index()
         {
             int hour = DateTime.Now.Hour;
