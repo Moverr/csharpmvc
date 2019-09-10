@@ -30,8 +30,12 @@ namespace partyInvites.services
 
         public bool handleForm(GuestResponse guestResponse)
         {
-           // _modelState.AddModelError("General", "Testing General Error");
-            return _modelState.IsValid; 
+            // _modelState.AddModelError("General", "Testing General Error");
+            if (_modelState.IsValid)
+            {
+                return false;
+            }
+            return true;
         }
            
 

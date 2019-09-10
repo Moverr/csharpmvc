@@ -49,7 +49,7 @@ namespace partyInvites.Controllers
         public ActionResult RsvForm(GuestResponse guestResponse)
         {
 
-            if (!homeService.handleForm(guestResponse))
+            if (homeService.handleForm(guestResponse) == false)
                 return View();
             return View("Thanks", guestResponse);
 
