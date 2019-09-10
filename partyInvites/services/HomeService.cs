@@ -14,23 +14,23 @@ namespace partyInvites.services
         private ModelStateDictionary _modelState;
 
 
-        public HomeService(ModelStateDictionary _modelState)
+        public HomeService(ModelStateDictionary modelState)
         {
-            _modelState = _modelState;
+            _modelState = modelState;
         }
 
-        public static HomeService getInstance(ModelStateDictionary _modelState)
+        public static HomeService getInstance(ModelStateDictionary modelState)
         {
             if(homeService == null)
             {
-                homeService = new HomeService(_modelState);
+                homeService = new HomeService(modelState);
             }
             return homeService;
         }
 
         public bool handleForm(GuestResponse guestResponse)
         {
-            _modelState.AddModelError("General", "Testing General Error");
+           // _modelState.AddModelError("General", "Testing General Error");
             return _modelState.IsValid; 
         }
            
