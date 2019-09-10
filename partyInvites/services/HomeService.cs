@@ -14,16 +14,16 @@ namespace partyInvites.services
         private ModelStateDictionary _modelState;
 
 
-        public HomeService()
+        public HomeService(ModelStateDictionary _modelState)
         {
-
+            _modelState = _modelState;
         }
 
-        public static HomeService getInstance()
+        public static HomeService getInstance(ModelStateDictionary _modelState)
         {
             if(homeService == null)
             {
-                homeService = new HomeService();
+                homeService = new HomeService(_modelState);
             }
             return homeService;
         }

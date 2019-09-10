@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TestController.cs = TestController.cs
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "partyInvitesTests", "partyInvitesTests\partyInvitesTests.csproj", "{843FDC05-4289-40EC-AEE7-D5DF5EAFBE53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{14638FA2-1192-4DBF-848B-A91061E62DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14638FA2-1192-4DBF-848B-A91061E62DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14638FA2-1192-4DBF-848B-A91061E62DB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{843FDC05-4289-40EC-AEE7-D5DF5EAFBE53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{843FDC05-4289-40EC-AEE7-D5DF5EAFBE53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{843FDC05-4289-40EC-AEE7-D5DF5EAFBE53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{843FDC05-4289-40EC-AEE7-D5DF5EAFBE53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
