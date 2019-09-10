@@ -21,16 +21,15 @@ namespace partyInvites.services
 
         public static HomeService getInstance(ModelStateDictionary modelState)
         {
-            if(homeService == null)
-            {
+            
                 homeService = new HomeService(modelState);
-            }
+            
             return homeService;
         }
 
         public bool handleForm(GuestResponse guestResponse)
         {
-            // _modelState.AddModelError("General", "Testing General Error");
+           
             if (!_modelState.IsValid)
             {
                 return false;
