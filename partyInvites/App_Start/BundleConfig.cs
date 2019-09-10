@@ -24,8 +24,8 @@ namespace partyInvites
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                   "~/Content/site.css",
-                      "~/Content/bootstrap.css",                    
-                      "~/Content/Generalone.css" +                      
+                      "~/Content/bootstrap.css"                   
+                     +                      
                       ""));
         }
     }
