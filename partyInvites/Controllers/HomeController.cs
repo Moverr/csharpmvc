@@ -48,10 +48,19 @@ namespace partyInvites.Controllers
         [HttpPost]
         public ActionResult RsvForm(GuestResponse guestResponse)
         {
+            bool result = homeService.handleForm(guestResponse);
 
-            if (homeService.handleForm(guestResponse) == false)
+            if (result == false)
+            {
                 return View();
-            return View("Thanks", guestResponse);
+
+            }
+            else
+            {
+                return View("Thanks", guestResponse);
+            }
+               
+           
 
 
 
