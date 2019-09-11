@@ -69,7 +69,6 @@ D:\projects\partyInvites\partyInvites\bin\System.Web.WebPages.Razor.xml
 D:\projects\partyInvites\partyInvites\bin\Newtonsoft.Json.xml
 D:\projects\partyInvites\partyInvites\bin\Antlr3.Runtime.pdb
 D:\projects\partyInvites\partyInvites\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\projects\partyInvites\partyInvites\obj\Debug\partyInvites.csprojAssemblyReference.cache
 D:\projects\partyInvites\partyInvites\obj\Debug\partyInvites.csproj.CoreCompileInputs.cache
 D:\projects\partyInvites\partyInvites\obj\Debug\partyInvites.csproj.CopyComplete
 D:\projects\partyInvites\partyInvites\obj\Debug\partyInvites.dll
