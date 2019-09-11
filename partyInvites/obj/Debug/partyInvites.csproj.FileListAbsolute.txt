@@ -73,3 +73,10 @@ D:\projects\partyInvites\partyInvites\obj\Debug\partyInvites.csproj.CoreCompileI
 D:\projects\partyInvites\partyInvites\obj\Debug\partyInvites.csproj.CopyComplete
 D:\projects\partyInvites\partyInvites\obj\Debug\partyInvites.dll
 D:\projects\partyInvites\partyInvites\obj\Debug\partyInvites.pdb
+D:\projects\partyInvites\partyInvites\bin\dotless.AspNet.dll
+D:\projects\partyInvites\partyInvites\bin\dotless.Core.dll
+D:\projects\partyInvites\partyInvites\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\projects\partyInvites\partyInvites\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\projects\partyInvites\partyInvites\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\projects\partyInvites\partyInvites\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\projects\partyInvites\partyInvites\obj\Debug\partyInvites.csprojAssemblyReference.cache

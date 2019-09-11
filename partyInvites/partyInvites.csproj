@@ -186,6 +186,7 @@
     <Content Include="Views\Home\RsvForm1.cshtml" />
     <Content Include="Views\Home\Thanks.cshtml" />
     <Content Include="Views\Shared\_BasicLayout.cshtml" />
+    <Content Include="Views\Home\List.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -31,6 +31,16 @@ namespace partyInvites.Controllers
             return View();
         }
 
+
+        public ActionResult List()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
+
+
+
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
