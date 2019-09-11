@@ -60,19 +60,7 @@ namespace partyInvites.Controllers
                 return View("Thanks", guestResponse);
             }
                
-           
 
-
-
-            if (ModelState.IsValid)
-            {
-                homeService.handleForm(guestResponse);
-
-                ViewBag.Message = "Your RSV Form.";
-                return View("Thanks", guestResponse);
-            }
-            ViewBag.Message = "Something is Wrong.";
-            return View();
 
         }
 
