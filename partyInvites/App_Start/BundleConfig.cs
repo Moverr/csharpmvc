@@ -25,16 +25,6 @@ namespace partyInvites
 
            
 
-            bundles.Add(new ScriptBundle("~/bundles/less").Include(
-                      "~/Scripts/less-1.5.1.js"));
-
-
-
-
-            // Adding the less stylesheet 
-            bundles.Add(new StyleBundle("~/Content/less").Include(
-                "~/Content/my.less" + 
-                    ""));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                   "~/Content/site.css",
