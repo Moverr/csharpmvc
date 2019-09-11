@@ -33,7 +33,7 @@ namespace partyInvites
 
             // Adding the less stylesheet 
             bundles.Add(new StyleBundle("~/Content/less").Include(
-                "~/Content/site.less" + 
+                "~/Content/my.less" + 
                     ""));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
