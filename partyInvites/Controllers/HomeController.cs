@@ -55,12 +55,11 @@ namespace partyInvites.Controllers
                 return View();
 
             }
-            else
-            {
+ 
                 return View("Thanks", guestResponse);
-            }
+           
                
-
+                 
 
         }
 
